@@ -290,40 +290,6 @@ int main()
     }
     }
 
-
-
-    
-    /*
-    //functional
-    auto start = chrono::system_clock::now();
-    count_sort(nr);
-    auto end = chrono::system_clock::now();
-    chrono::duration<double> elapsed_seconds = end - start;
-    cout << "count" << elapsed_seconds.count() << endl;
-
-    //functional
-    
-
-    //functional
-    start = chrono::system_clock::now();
-    quick_sort(nr, 0, nr.size() - 1);
-    end = chrono::system_clock::now();
-    elapsed_seconds = end - start;
-    cout << "quick" << elapsed_seconds.count() << endl;
-
-    //functional
-    start = chrono::system_clock::now();
-    merge_sort(nr, 0, nr.size() - 1);
-    end = chrono::system_clock::now();
-    elapsed_seconds = end - start;
-    cout << "merge" << elapsed_seconds.count() << endl;
-
-    //functional
-    start = chrono::system_clock::now();
-    shell_sort(nr);
-    end = chrono::system_clock::now();
-    elapsed_seconds = end - start;
-    cout << "shell" << elapsed_seconds.count() << endl;*/
-
+    return 0;
 }
 
